@@ -29,5 +29,7 @@ The process is a bit complicated. We compute the style loss from the style image
 You can view the notebook above having the implementation . It is an official notebook by tensorflow . A better model trained on more epochs following the same logic can be accessed at Tensorflow Hub. 
 Link - https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2
 
+Here is an image that I generated using the above tensorflow hub model.Seems scary right ? 
 
+![photo_2022-09-19_01-15-28](https://user-images.githubusercontent.com/63863911/190925615-60ecd510-dfaa-405e-affa-76211fb655da.jpg)
 
