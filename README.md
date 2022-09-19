@@ -28,6 +28,15 @@ The process is a bit complicated. We compute the style loss from the style image
 ![dog3](https://user-images.githubusercontent.com/63863911/190920490-870c7024-dccb-49be-b930-d506fa09c415.png)
 
 
+## Style loss 
+
+![style_loss](https://user-images.githubusercontent.com/63863911/191050886-14bdc139-6ef9-41c2-ba49-079f913b06b2.PNG)
+
+To understand the implementation of style loss one can head over to the ** Einstein Notation ** notebook above . Einsum in tensorflow provides an wonderful way of 
+performing matrix multiplications.
+
+
+## Tensorflow hub and Fast style Transfer
 You can view the notebook above having the implementation . It is an official notebook by tensorflow . A better model trained on more epochs following the same logic can be accessed at Tensorflow Hub. 
 Link - https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2
 
